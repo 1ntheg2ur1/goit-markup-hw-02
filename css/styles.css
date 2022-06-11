@@ -61,6 +61,10 @@ body {
   color: var(--main-text-color);
 }
 
+.hero {
+  text-align: center;
+}
+
 .hero-heading {
   font-family: var(--main-font), sans-serif;
   font-weight: 900;
@@ -88,12 +92,13 @@ body {
   border-color: transparent;
 }
 
-/*
+
 .hero-button:hover {
   color: var(--secondary-text-color);
   background-color: var(--main-color);
+  border-color: #2f303a;
 }
-*/
+
 
 .benefits-heading {
   font-size: 14px;
