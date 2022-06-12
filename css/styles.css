@@ -50,15 +50,18 @@ body {
 }
 
 .header-item {
-  font-family: var(--main-font), sans-serif;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
 
-.number {
+.header-number,
+.header-email {
   color: var(--main-text-color);
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: 1.14;
 }
 
 .hero {
@@ -150,11 +153,13 @@ body {
 
 .adress .adress-item {
   color: var(--main-color);
+  font-style: normal;
 }
 
 .adress .mail,
 .adress .phone {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
 }
 
 .footer,
