@@ -8,6 +8,8 @@
   --secondary-font: 'Raleway';
   --main-font-weight: 400;
 }
+  
+/* Загальні властивості сторінки */
 
 body {
   font-family: var(--main-font), sans-serif;
@@ -19,12 +21,13 @@ body {
   background-color: var(--main-color);
 }
 
+/* Стилі логотипу */
+
 .logo-first-part {
   font-family: var(--secondary-font), sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--logo-part-color);
 }
 
@@ -33,7 +36,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: #000000;
 }
 
@@ -42,9 +44,10 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--main-color);
 }
+
+/* Список навігації + пошта та номер */
 
 .header {
   background-color: var(--main-color);
@@ -59,10 +62,10 @@ body {
 
 .header-number,
 .header-email {
-  color: var(--main-text-color);
   letter-spacing: 0.02em;
   font-weight: 500;
   line-height: 1.14;
+  color: var(--main-text-color);
 }
 
 .hero {
@@ -121,7 +124,7 @@ body {
 }
 
 .team {
-  background-color: var(--bcnd-col:);
+  background-color: var(--bcnd-col);
 }
 
 .team-heading {
