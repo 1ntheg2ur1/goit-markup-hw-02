@@ -68,6 +68,8 @@ body {
   color: var(--main-text-color);
 }
 
+/* Блок-герой */
+
 .hero {
   text-align: center;
 }
@@ -105,6 +107,8 @@ body {
   border-color: #2f303a;
 }
 
+/* Переваги */
+
 .benefits-heading {
   font-size: 14px;
   line-height: 1.14;
@@ -112,12 +116,17 @@ body {
   color: var(--secondary-text-color);
 }
 
+/* Чим ми займаємось? */
+
 .activity-heading {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   color: var(--secondary-text-color);
 }
+
+
+/* Команда */
 
 .team {
   background-color: var(--bcnd-col);
@@ -149,6 +158,8 @@ body {
   background-color: var(--main-color);
 }
 
+/* Адреса та контакти (футер) */
+
 .adress .adress-item {
   color: var(--main-color);
   font-style: normal;
@@ -160,10 +171,15 @@ body {
   font-style: normal;
 }
 
+/* Темний фон для Hero та footer */
+
 .footer,
 .hero {
   background-color: #2f303a;
 }
+
+
+/* Налаштування кнопок в Portfolio */
 
 .button {
   font-family: var(--main-font), sans-serif;
@@ -187,6 +203,8 @@ body {
   background-color: var(--logo-part-color);
 }
 
+/* Відключення стандартної стилізації списків та посилань */
+
 .list {
   list-style: none;
 }
@@ -195,9 +213,13 @@ body {
   text-decoration: none;
 }
 
+/* Поточна сторінка */
+
 .current {
   color: var(--logo-part-color);
 }
+
+/* Стилізація Portfolio */
 
 .portfolio-list-item {
   background-color: var(--main-color);
@@ -217,6 +239,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
+
+/* Властивості hover та focus на всі посилання*/
 
 .link:hover,
 .link:focus {
