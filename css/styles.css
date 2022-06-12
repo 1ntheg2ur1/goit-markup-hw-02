@@ -23,7 +23,9 @@ body {
 
 /* Стилі логотипу */
 
-.logo-first-part {
+.logo-first-part,
+.logo-second-part,
+.logo-second-part-footer {
   font-family: var(--secondary-font), sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -32,18 +34,10 @@ body {
 }
 
 .logo-second-part {
-  font-family: var(--secondary-font), sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
   color: #000000;
 }
 
 .logo-second-part-footer {
-  font-family: var(--secondary-font), sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
   color: var(--main-color);
 }
 
@@ -53,7 +47,9 @@ body {
   background-color: var(--main-color);
 }
 
-.header-item {
+.header-item,
+.header-number,
+.header-email {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -62,9 +58,6 @@ body {
 
 .header-number,
 .header-email {
-  letter-spacing: 0.02em;
-  font-weight: 500;
-  line-height: 1.14;
   color: var(--main-text-color);
 }
 
@@ -125,7 +118,6 @@ body {
   color: var(--secondary-text-color);
 }
 
-
 /* Команда */
 
 .team {
@@ -177,7 +169,6 @@ body {
 .hero {
   background-color: #2f303a;
 }
-
 
 /* Налаштування кнопок в Portfolio */
 
