@@ -41,6 +41,8 @@ body {
   color: var(--main-color);
 }
 
+.logo-first-part, .logo-second-part
+
 /* Список навігації + пошта та номер */
 
 .header {
@@ -95,10 +97,15 @@ body {
 }
 
 .hero-button:hover {
+  background-color: #188CE8;
+} 
+
+/* 
+.hero-button:hover {
   color: var(--secondary-text-color);
   background-color: var(--main-color);
   border-color: #2f303a;
-}
+} */
 
 /* Переваги */
 
