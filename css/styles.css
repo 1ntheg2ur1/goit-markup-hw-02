@@ -8,7 +8,7 @@
   --secondary-font: 'Raleway';
   --main-font-weight: 400;
 }
-  
+
 /* Загальні властивості сторінки */
 
 body {
@@ -99,13 +99,11 @@ body {
   border-color: transparent;
 }
 
-
 .hero-button:hover {
   color: var(--secondary-text-color);
   background-color: var(--main-color);
   border-color: #2f303a;
 }
-
 
 .benefits-heading {
   font-size: 14px;
@@ -183,7 +181,8 @@ body {
   border-color: transparent;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   color: var(--main-color);
   background-color: var(--logo-part-color);
 }
