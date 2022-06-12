@@ -45,9 +45,9 @@ body {
 
 /* Список навігації + пошта та номер */
 
-.header {
+/* .header {
   background-color: var(--main-color);
-}
+} */
 
 .header-item,
 .header-number,
